@@ -25,7 +25,9 @@
 <button onclick="myFunction()">Show/Hide User Information</button>
 <div id="myDIV" style="display:none;">
     <div sec:authorize="isAuthenticated()">
-        
+
+        <!-- ******* Write your code for Task 13 ******* -->
+
         <table>
             <tr>
                 <td>User:</td>
@@ -43,7 +45,6 @@
         <form action="#" th:action="@{/logout}" method="post">
             <input type="submit" value="Logout"/>
         </form>
-
 
 
     </div>
