@@ -1,4 +1,4 @@
-package com.tejack.microspringbootreactive.model;
+package com.tejack.microspringbootreactive;
 
 import java.util.Objects;
 

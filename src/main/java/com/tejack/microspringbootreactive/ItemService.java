@@ -1,7 +1,5 @@
-package com.tejack.microspringbootreactive.service;
+package com.tejack.microspringbootreactive;
 
-import com.tejack.microspringbootreactive.model.Item;
-import com.tejack.microspringbootreactive.repository.ItemRepository;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import org.springframework.stereotype.Service;

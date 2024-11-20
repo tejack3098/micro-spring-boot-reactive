@@ -1,6 +1,5 @@
-package com.tejack.microspringbootreactive.repository;
+package com.tejack.microspringbootreactive;
 
-import com.tejack.microspringbootreactive.model.Item;
 import reactor.core.publisher.Mono;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 
